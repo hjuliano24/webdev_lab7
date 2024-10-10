@@ -1,4 +1,29 @@
+/*
+need to use tr.planet 
+havent used an id yet 
+*/
+h1{
+  font-style: italic;
+}
+table{
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+  overflow-x:auto
+}
+
+tr.planet:hover {
+  background-color: #9d99c2;
+}
+
 td, th {
 	border: 1px solid;
   }
   
+tr.planet{
+  
+}
+  
+th{
+  font-weight: bold;
+}
