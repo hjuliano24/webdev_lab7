@@ -1,29 +1,85 @@
 /*
 need to use tr.planet 
 havent used an id yet 
+
+planets--
+mercury 
+mars 
+saturn 
+uranus 
+
+
+need background 
 */
+
+body {
+ background-image: url(../images/spacebackground.jpg);
+ background-size: 100%;
+ background-blend-mode: overlay;
+}
+
 h1{
   font-style: italic;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: white;
 }
 table{
+  color: white;
   width: 90%;
   border-collapse: collapse;
   text-align: center;
-  overflow-x:auto
+  overflow-x:auto;
+  background-color: navy;
+  opacity: 6;
 }
 
-tr.planet:hover {
-  background-color: #9d99c2;
+
+#mercury{
+  background-color: grey;
+}
+
+#mars{
+  background-color: red;
+}
+
+#saturn{
+  background-color: darkorange;
+}
+
+#uranus{
+  background-color: blue;
+}
+
+tr.facts:hover {
+  background-color: #1E90FF;
 }
 
 td, th {
-	border: 1px solid;
+	border: 2px solid;
+  padding: 10px 10px 15px 15px;
   }
   
-tr.planet{
+td{
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  
+tr.facts{
   
 }
   
 th{
   font-weight: bold;
 }
+
+img{
+  width: 200px;
+}
+
+td.planet_img{
+  width: 150px;
+}
+
